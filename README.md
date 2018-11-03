@@ -21,7 +21,7 @@ Our objective is to determine if there are underlying characteristics of fragran
 The final processed dataset "fragrance_details.csv"  can be found under data/processed. The data folder also includes the raw dataset.
 
 # Hypothesis
-There are certain characteristics of a fragrance available on their website Color has the ability to influence purchasing behavior and will improve 
+There are certain characteristics of a fragrance that influence whether or not a fragrance becomes a bestseller. We will also look into if color has the ability to influence purchasing behavior and will improve model performance. 
 
 # Results
 The final Gradient Boosted Classifier model incorporating color cluster improved previous model without color clusters. The final model was able to predict 9 of the 27 bestsellers, the model achieved an accuracy of 0.865, precision of .47, and recall of .33. The model was build using 450 trees at a max depth of 5 for each tree. 
