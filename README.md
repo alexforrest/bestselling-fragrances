@@ -24,9 +24,9 @@ The final processed dataset "fragrance_details.csv"  can be found under data/pro
 There are certain characteristics of a fragrance available on their website Color has the ability to influence purchasing behavior and will improve 
 
 # Results
-The final Gradient Boosted Classifier model incorporating color cluster improved previous model without color clusters. The final model was able to predict 9 of the 27 bestsellers, the model achieved an accuracy of 0.865, precision of .47, and recall of .33.
+The final Gradient Boosted Classifier model incorporating color cluster improved previous model without color clusters. The final model was able to predict 9 of the 27 bestsellers, the model achieved an accuracy of 0.865, precision of .47, and recall of .33. The model was build using 450 trees at a max depth of 5 for each tree. 
 
-The precision and recall when cross validating was much higher on the validation set, but low on the test set. The model is overfitting, meaning we should collect more data to get more accurate results from cross-validation.
+The precision and recall when cross validating was much higher on the validation set, but low on the test set. The model is overfitting, meaning we should collect more data to get more accurate results from cross-validation and grid search parameter tuning.
 
 # Next Steps
 - Continue to refine the dataset and scrape more data
